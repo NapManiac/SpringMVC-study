@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--
+    &lt;!&ndash;处理映射器&ndash;&gt;
+    <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+
+    &lt;!&ndash;处理器适配器&ndash;&gt;
+    <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
+-->
+
+    <!--视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">
+        <!--前缀-->
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <!--后缀-->
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--将自己的类交给SpringIOC容器-->
+    <!--Handler-->
+    <bean id="/hello" class="com.fly.controller.HelloController"/>
+
+</beans>

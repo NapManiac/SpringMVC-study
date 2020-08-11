@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springmvc-07-Interceptor" />
+        <module name="springmvc-fileupload-filedownload" />
+        <module name="springmvc-06-ajax" />
+        <module name="springmvc-03-hello-annotation" />
+        <module name="SpringMVC-01-servlet" />
+        <module name="springmvc-08-login-Interceptor" />
+        <module name="SpringMVC-02-hello" />
+        <module name="springmvc-05-json" />
+        <module name="springmvc-04-controller" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+</project>
