@@ -16,5 +16,6 @@
       <input type="submit" value="upload">
       <input type="submit" value="upload2">
     </form>
+    <a href="/download">点击下载</a>
   </body>
 </html>
